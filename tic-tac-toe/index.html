@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe FINAL</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+<script
+        src="https://code.jquery.com/jquery-2.1.3.min.js"
+        integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM="
+        crossorigin="anonymous"></script>
+        <!--
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'>
+        --><link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <h1 class='container vertical-center title'>Unbeatable Tic Tac Toe</h1>
+
+<a href="" onClick='window.location.reload()'>
+  <h2 class='message'>WIN</h2>
+</a>
+
+
+<div class='vertical-center container-fluid' id='gameBoard' style="position:relative; height: 40%; width: 50%; top:0;left 0;">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <img id='hashTag' src='http://mcs.une.edu.au/doc/PyQt4-doc/examples/declarative/toys/tic-tac-toe/content/pics/board.png' style="height: 50%; width: 90%" />
+
+  <div class='container-fluid topBox'>
+    <input type="image" sets='D1 V1 H1' class='D1 C V1 H1 box boxA1' id='A1'  src='http://s20.postimg.org/idjx1z98t/image.png'>
+    <input type="image" sets='V2 H1' class='E V2 H1 box boxA2' id='A2' src='http://s20.postimg.org/8rqcloi31/placeholdero.png'>
+    <input type="image" sets='H1 V3 D2' class='H1 V3 D2 C box boxA3' id='A3' src='http://s20.postimg.org/idjx1z98t/image.png'>
+    <input type="image" sets='H2 V1' class='box E H2 V1 boxA4' id='A4' src='http://s20.postimg.org/kksr3n3wt/placeholderx.png'>
+    <input type="image" sets='D1 D2 H2 V2' class='M V2 H2 D1 D2 box boxA5' id='A5' src='http://s20.postimg.org/idjx1z98t/image.png'>
+    <input type="image" sets='V3 H2' class='box E V3 H2 boxA6' id='A6' src='http://s20.postimg.org/8rqcloi31/placeholdero.png'>
+    <input type="image" sets='D2 V1 H3' class='C V1 H3 D2 box boxA7' id='A7' src='http://s20.postimg.org/idjx1z98t/image.png'>
+    <input type="image" sets='V2 H3' class='V2 H3 E box boxA8' id='A8' src='http://s20.postimg.org/8rqcloi31/placeholdero.png'>
+    <input type="image" sets='D1 H3 V3' class='H3 V3 D1 C box boxA9' id='A9' src='http://s20.postimg.org/bguc372bx/bluex.png'>
+  </div>
+
+
+
+</div>
+
+
+
+<div class='vertical-center container-fluid' id='initialSelection'>
+  <h2>To begin, please select your Game Piece:</h2>
+  <input type="image" class='XorO disappear' id='X' src='http://s20.postimg.org/bguc372bx/bluex.png'>
+  <input type="image" class='XorO disappear' id='O' src='http://s20.postimg.org/idjx1z98t/image.png'>
+</div>
+
+<div class='vertical-center container-fluid' id='secondSelection'>
+  <h2>Please Select:</h2>
+  <button id='userFirst'>User goes first</button>
+  <button id='compFirst'>Robot goes first</button>
+  <button id='random'>Randomize</button>
+</div>
+<br></br>
+<p class='title'>Disclaimer: If you DO manage to win, congratulations, you have discovered a bug in my AI. Please feel free to leave a comment with details so I can fix it.</p?
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

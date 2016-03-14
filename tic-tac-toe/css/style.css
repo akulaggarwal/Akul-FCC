@@ -1,0 +1,98 @@
+/*#gameBoard {
+  max-height: 50%;
+}*/
+
+.topBox * {
+  position: absolute;
+}
+
+
+.boxA1 {
+  width: 20%;
+  left: 3%;
+  top: 7%;
+}
+.boxA2 {
+  width: 20%;
+  left: 33%;
+  top: 4%;
+}
+.boxA3 {
+  width: 20%;
+  left: 65%;
+  top: 1%;
+}
+.boxA4 {
+  width: 15%;
+  left: 12%;
+  top: 43%;
+}
+.boxA5 {
+  width: 12%;
+  left: 38%;
+  top: 43%;
+}
+.boxA6 {
+  width: 20%;
+  left: 63%;
+  top: 38%;
+}
+.boxA7 {
+  width: 20%;
+  left: 6%;
+  top: 69%;
+}
+.boxA8 {
+  width: 15%;
+  left: 36%;
+  top: 69%;
+}
+.boxA9 {
+  width: 16%;
+  left: 65%;
+  top: 73%;
+}
+
+.XorO {
+  width: 35%;
+  position: relative;
+  margin: 25px;
+}
+
+.message {
+  border: 25px;
+  border-style: solid;
+  border-color: red;   
+  background: orange;
+  text-align: center;
+}
+
+.restart {
+  position: absolute;
+  top: 65%;
+  left: 40%;
+}
+
+.title {
+  /*border: 25px;
+  background: orange;
+  border-style: solid;
+  border-color: red;*/
+  text-align: center;
+}
+
+#initialSelection {
+  text-align: center;
+}
+
+#secondSelection {
+  text-align: center;
+}
+
+
+/*Left to do:
+fix - comp shows last b4 winning
+fix - tie means board is full
+Restart button
+improve checkTie()
+*/
