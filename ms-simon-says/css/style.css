@@ -1,0 +1,47 @@
+/*Following is in JS instead
+#green {
+ -webkit-box-shadow:0 0 20px blue; 
+ -moz-box-shadow: 0 0 20px blue; 
+ box-shadow:0 0 20px blue;
+}*/
+
+body {
+  background-color: black;
+}
+
+.colors > input {
+  margin: 0 15px 0 15px;
+}
+
+body {
+  color: white;
+}
+
+/*To add later?:
+?disable click event while animate running?
+*/
+
+a.toggler {
+    background: green;
+    cursor: pointer;
+    border: 2px solid black;
+    border-right-width: 15px;
+    padding: 0 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+a.toggler.off {
+    background: red;
+    border-right-width: 2px;
+    border-left-width: 15px;
+}
+
+button {
+  color: blue;
+}
+
+.count {
+  color: orange;
+}
