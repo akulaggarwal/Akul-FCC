@@ -567,14 +567,15 @@ $(document).ready(function () {
       //$('.restart').show();
       //return;
     }
-    else if(bestDefenseIsOffense()) {
-      console.log('BESTDEFENSEISOFFENSE ACTIVATED');
-    }
     else if (defense()) {
       defense();
       console.log('defensive measures taken'); //mark to protect from user win
       //console.log('thisSet' + thisSet);
     }
+    else if(bestDefenseIsOffense()) {
+      console.log('BESTDEFENSEISOFFENSE ACTIVATED');
+    }
+
     else if (secondaryDefense()) {
       console.log('SECONDARYD DEFENSE activated');
     }
